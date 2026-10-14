@@ -5,5 +5,8 @@
 - 공유 링크 seed로 결과 재현. 모바일 대응, 통계 출처/한계 모달.
 - `node scripts/test.mjs`: 10만 회 추첨 분포/자료/재현성 검증 통과.
 - browse로 첫 추첨과 모바일 검사. 발견한 지구 그림 가로 넘침 수정.
-- 현재 공개 배포 진행 중. 최종 배포 결과는 이 문서에 후속 기록.
+- GitHub Pages 배포 완료: https://yhchung.github.io/born-again/
+- 공개 URL HTTP 200, 실제 추첨(방글라데시), 카드 6개, 320px 가로 넘침 없음 확인. 데스크톱/모바일 스크린샷은 비추적 `.qa/`.
+- 클립보드 쓰기가 제한된 브라우저에서는 복사 가능한 결과 URL을 화면에 표시하는 fallback 확인.
+- GitHub Actions 첫 배포: https://github.com/yhchung/born-again/actions/runs/38515267898
 - 운영 메모: sandbox 안의 gh 인증 오류는 실제 토큰 만료가 아니었음. 승인된 네트워크 환경에서 `gh api user`로 정상 확인.
